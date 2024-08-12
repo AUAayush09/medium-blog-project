@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "dev": "wrangler dev src/index.ts",
+    "deploy": "wrangler deploy --minify src/index.ts"
+  },
+  "dependencies": {
+    "@aayushau09/medium": "^1.0.0",
+    "@aayushau09/medium-blog": "^1.0.0",
+    "@aayushau09/medium-commo_n": "^1.0.0",
+    "@aayushau09/medium-project": "^1.0.0",
+    "@prisma/client": "^5.10.2",
+    "@prisma/extension-accelerate": "^0.6.3",
+    "hono": "^4.0.5",
+    "prisma": "^5.18.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240208.0",
+    "wrangler": "^3.25.0"
+  }
+}
